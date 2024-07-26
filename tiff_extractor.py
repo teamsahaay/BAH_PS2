@@ -15,15 +15,9 @@ from geotiff import GeoTiff
 
 from geotiff import GeoTiff
 
-tiff_file = "India_GISdata_LTAy_YearlyMonthlyTotals_GlobalSolarAtlas-v2_GEOTIFF/monthly/"
-geo_tiff = GeoTiff(tiff_file)
-zarr_array = geo_tiff.read()
 
 
-# In[84]:
 
-
-lon_array, lat_array = geo_tiff.get_coord_arrays()
 
 
 # In[ ]:
@@ -33,18 +27,6 @@ lon_array, lat_array = geo_tiff.get_coord_arrays()
 
 
 # In[83]:
-
-
-lattitude_array = np.squeeze(np.array(lat_array[:,[0]]),axis=1)
-
-
-# In[68]:
-
-
-longitude_array = np.squeeze(np.array(lon_array[[0],:]),axis =0)
-
-
-# In[ ]:
 
 
 list_vals =[]
