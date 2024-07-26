@@ -8,21 +8,6 @@
 import numpy
 
 from geotiff import GeoTiff
-
-
-# In[5]:
-
-
-from geotiff import GeoTiff
-
-
-
-
-
-
-# In[ ]:
-
-
 #27.3325°N 88.6140°E gangtok coordinates
 
 
